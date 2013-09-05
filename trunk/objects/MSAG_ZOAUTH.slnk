@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<MSAG ARBGB="ZOAUTH" MASTERLANG="E" RESPUSER="SE38_UWE" LASTUSER="SE38_UWE" LDATE="20101217" LTIME="093010" STEXT="Twibap Twitter API">
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="001" TEXT="API Error: &amp;1"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="001" TEXT="API Error: &amp;1"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="002" TEXT="HTTP_COMMUNICATION_FAILURE"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="002" TEXT="HTTP_COMMUNICATION_FAILURE"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="003" TEXT="Authorization required"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="003" TEXT="Authorization required"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="004" TEXT="API Consumer key not found"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="004" TEXT="API Consumer key not found"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="005" TEXT="API Consumer key empty"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="005" TEXT="API Consumer key empty"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="006" TEXT="API Consumer secret empty"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="006" TEXT="API Consumer secret empty"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="007" TEXT="User not registered"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="007" TEXT="User not registered"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="008" TEXT="Password required"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="008" TEXT="Password required"/>
+ <t100 SPRSL="D" ARBGB="ZOAUTH" MSGNR="009" TEXT="Wrong password"/>
+ <t100 SPRSL="E" ARBGB="ZOAUTH" MSGNR="009" TEXT="Wrong password"/>
+ <t100t SPRSL="D" ARBGB="ZOAUTH" STEXT="OAuth library"/>
+ <t100t SPRSL="E" ARBGB="ZOAUTH" STEXT="OAuth library"/>
+</MSAG>
