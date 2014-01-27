@@ -17,7 +17,7 @@ The following informations are only needed for standalone usage of the OAuth pac
 * Download Nugged (incl. required packages) and install via [SAPlink](http://www.saplink.org)
 * Activate all inactive objects.
  
-If your service provider needs SSL requests (https://), you have to activate the HTTPS port in your system. (For installation informations have a look at the SCN blogs for Windows and Linux , thanks @wolf_gregor). Additionally you have to import the certificates of your service provider (the whole chain!) into your system, see OSS note 1094342 (thanks @rmtiwari) and Document "Import StreamWork Certificate" by Benjamin Merkle / project "Streamwork ABAP Client"
+If your service provider needs SSL requests (https://), you have to activate the HTTPS port in your system. (For installation informations have a look at the SCN blogs for [Windows](http://scn.sap.com/community/netweaver-as/blog/2005/10/11/setup-https-ssl-for-the-sneak-preview-sap-netweaver-04-abap-edition-on-windows) and [Linux](http://scn.sap.com/community/netweaver-as/blog/2005/04/01/setup-https-for-the-sap-netweaver-testdrive-sr1-on-linux), thanks @wolf_gregor). Additionally you have to import the certificates of your service provider (the whole chain!) into your system, see OSS note 1094342 (thanks @rmtiwari) and Document "Import StreamWork Certificate" by Benjamin Merkle / project "Streamwork ABAP Client"
  
 ## Register Application
 An application must be registered at your service provider. After your registration, you'll get the consumer key and consumer secret.
