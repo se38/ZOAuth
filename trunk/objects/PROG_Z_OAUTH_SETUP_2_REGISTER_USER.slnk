@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-16"?>
-<PROG NAME="Z_OAUTH_SETUP_2_REGISTER_USER" VARCL="X" SUBC="1" CNAM="SE38_UWE" CDAT="20100819" UNAM="SE38_UWE" UDAT="20111003" VERN="000050" RMAND="001" RLOAD="E" FIXPT="X" SDATE="20111003" STIME="155139" IDATE="20111003" ITIME="155139" UCCHECK="X">
+<?xml version="1.0" encoding="utf-8"?>
+<PROG NAME="Z_OAUTH_SETUP_2_REGISTER_USER" VARCL="X" SUBC="1" RMAND="001" RLOAD="E" FIXPT="X" UCCHECK="X">
  <textPool>
   <language SPRAS="D">
    <textElement ID="I" KEY="B01" ENTRY="Please enter PIN" LENGTH="16 "/>
@@ -16,7 +16,7 @@
   </language>
  </textPool>
  <dynpros>
-  <dynpro PROG="Z_OAUTH_SETUP_2_REGISTER_USER" DNUM="9000" TYPE="M" FNUM="9000" BZMX="5 " BZBR="59 " MILI="192 " MICO="37 " MALI="0 " MACO="0 " NOLI="27 " NOCO="120 " VALP="0 " CUAN="G" SPRA="E" DGEN="20101217" TGEN="093011" DTEXT="">
+  <dynpro PROG="Z_OAUTH_SETUP_2_REGISTER_USER" DNUM="9000" TYPE="M" FNUM="9000" BZMX="5 " BZBR="59 " MILI="192 " MICO="37 " MALI="0 " MACO="0 " NOLI="27 " NOCO="120 " VALP="0 " CUAN="G" SPRA="E" DGEN="20130905" TGEN="155756" DTEXT="">
    <dynprofield FNAM="%#AUTOTEXT001" DIDX="0005" FLG1="00" FLG2="00" FLG3="00" FILL="R" FMB1="30" FMB2="00" LENG="3B" LINE="01" COLN="02" LANF="00" LBLK="00" LREP="00" TYPE="CHAR" AUTH="101" AGLT="00" ADEZ="00" STXT="Please enter the PIN you received from the OAuth Provider"/>
    <dynprofield FNAM="%#AUTOTEXT002" DIDX="0017" FLG1="00" FLG2="00" FLG3="00" FMB1="30" FMB2="00" LENG="17" LINE="02" COLN="03" LANF="00" LBLK="00" LREP="00" TYPE="CHAR" AGLT="00" ADEZ="00" STXT="PIN / Verification Code" RES1="                                                                                                                                                                                                                                                        X"/>
    <dynprofield FNAM="PIN" DIDX="0019" FLG1="80" FLG2="02" FLG3="A8" FMB1="00" FMB2="00" LENG="19" LINE="02" COLN="1C" LANF="00" LBLK="00" LREP="00" TYPE="CHAR" AGLT="00" ADEZ="00" STXT="?________________________"/>
@@ -54,9 +54,9 @@ PROCESS AFTER INPUT.
 *--------------------------------------------------------------------*
 *
 * The OAuth library (Part of &quot;Twibap: The ABAP Twitter API&quot;)
-* Copyright (C) 2010 Uwe Fetzer + SAP Developer Network members
+* Copyright (C) 2010 Uwe Fetzer
 *
-* Project home: http://twibap.googlecode.com
+* Project home: https://github.com/se38/twibap
 *
 * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
 * you may not use this file except in compliance with the License.
